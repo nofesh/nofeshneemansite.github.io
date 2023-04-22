@@ -1,7 +1,7 @@
 ﻿body 
 {
 
-    background:transparent url('../images/background_1400_1500.gif') no-repeat top;
+    background:transparent url('../Images/background_1400_1500.gif') no-repeat top;
     direction:ltr;
     font-family:Arial;
     text-align: center;
@@ -22,7 +22,7 @@
  
  .maindef
  {
-    background-image:url(../images/center_amore.png);
+    background-image:url(../Images/center_amore.png);
     height:459px;
     width:950px;
   
@@ -30,7 +30,7 @@
  
 .downamore
 {
-    background-image:url(../images/down_amore.jpg);
+    background-image:url(../Images/down_amore.jpg);
     height:85px;
     width:950px;
     text-align:right;
@@ -58,7 +58,7 @@ color:#5b2932;
         
     width:100%;
     height:147px;
-    background-image:url(../images/amore_אמורה_master_top.png);
+    background-image:url(../Images/amore_אמורה_master_top.png);
 
 } 
  
@@ -69,7 +69,7 @@ color:#5b2932;
     
     width:100%;
     height:18px;
-    background-image:url(../images/top_amore.gif);
+    background-image:url(../Images/top_amore.gif);
     cursor:pointer;
 
 }
