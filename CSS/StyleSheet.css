@@ -34,7 +34,7 @@
      width:950px;
      height:713px;
      margin:0px auto;
-    background:transparent url('../Images/צימר_אמירים_נופש_נאמן.jpg') no-repeat top; 
+    background:transparent url('../images/צימר_אמירים_נופש_נאמן.jpg') no-repeat top; 
       
       
  }
@@ -47,7 +47,7 @@
      width:950px;
      height:713px;
      margin:0px auto;
-     background:transparent url('../Images/צימר_אמירים_נופש_נאמן_175.jpg') no-repeat top; 
+     background:transparent url('../images/צימר_אמירים_נופש_נאמן_175.jpg') no-repeat top; 
  }
  
   
@@ -55,7 +55,7 @@
 {
      
      width:950px;
-     background:transparent url('../Images/צימר_אמירים_נופש_נאמן_btm.jpg') no-repeat top; 
+     background:transparent url('../images/צימר_אמירים_נופש_נאמן_btm.jpg') no-repeat top; 
  }
  
  
@@ -94,7 +94,7 @@ color:#5b2932;
         
     width:100%;
     height:147px;
-  /*  background-image:url(../Images/amore_אמורה_master_top.png);*/
+  /*  background-image:url(../images/amore_אמורה_master_top.png);*/
     cursor:pointer;
    
     
@@ -108,7 +108,7 @@ color:#5b2932;
     
     width:100%;
     height:18px;
- /*   background-image:url(../Images/top_amore.png);*/
+ /*   background-image:url(../images/top_amore.png);*/
 
 }
 .usa

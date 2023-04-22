@@ -17,7 +17,7 @@
   font-size: 5em !important;}
 
 
-  
+
 
 html, body
 {
@@ -771,7 +771,7 @@ display: none;
 }
 
 .wazelink {
-    background-image: url(../css/images/waze.png);
+    background-image: url(../CSS/images/waze.png);
     background-repeat: no-repeat;
     background-size: 40px;
     padding: 20px 0 0 50px;
