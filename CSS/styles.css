@@ -1,0 +1,894 @@
+﻿@font-face {
+    font-family: 'GveretLevinAlefAlefAlef-Regular';
+    src: url('../fonts/GveretLevinAlefAlefAlef-Regular.woff') format('woff');
+}
+
+.logotext {
+    font-family: GveretLevinAlefAlefAlef-Regular;
+}
+
+.fa-2x {
+  font-size: 2em !important;}
+.fa-3x {
+  font-size: 3em !important;}
+.fa-4x {
+  font-size: 4em !important;}
+.fa-5x {
+  font-size: 5em !important;}
+
+
+
+html, body
+{
+    height:100%;
+    overflow-x:hidden;
+}
+
+p {
+    white-space:pre-wrap;
+}
+.fullwidth {
+    width:100%;
+
+}
+.background {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+
+    background-color: #799fc0;
+    background-size: cover;
+    background-position-y: center;
+}
+
+
+.imagebg {
+    background-image: url('../images/10.jpg');
+}
+.title {
+    font-size: 60px;
+    
+    padding: 0 15px 10px 15px;
+    color: white;
+    position: absolute;
+    top: 107px;
+    z-index: 14;
+    right: 50px;
+    box-shadow: 0 5px 4px -2px rgba(0, 0, 0, 0.72);
+}
+.item {
+    height: 570px;
+    /*height:84%;*/
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.abouttitle
+{   
+    font-size: 42px;
+    color: white;
+    z-index: 14;
+}
+
+.zimmertitle {
+    background-image: url("../images/swiss/BEA_3026_resize.JPG");
+    font-size: 42px;
+    color: white;
+    z-index: 14;
+    background-position-x: right;
+    min-height: 100px;
+    padding: 5px 5px 0 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+ 
+
+.aboutcontent {
+    color: white;
+}
+
+    .aboutcontent ul {
+        line-height:40px;
+    }
+
+.contentline {
+    margin-bottom:20px;
+}
+
+.content {
+    font-size: 20px;
+    color: black;
+}
+
+.menucontainer {
+    width: 100%;
+}
+
+.slidercontainer {
+    width:100%;
+    padding:0px;
+    margin-top:20px;
+}
+
+.mobiletopmenu {
+    background-color: rgba(0, 0, 0, 0.42);
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    display: none;
+    margin: 45px 0 0 0;
+}
+
+.topmenu
+{
+    
+    font-size:20px;
+    text-align:center;
+    color:black;
+    padding:0 0% 0 0%;    
+    border-bottom:1px solid white;
+}
+#tzarea {
+    position: fixed;
+    top: 0px;
+    left:17px;
+    width: inherit;
+    z-index: 15;
+}
+.topmenubar {
+    position: fixed;
+    top: 0px;
+    width: inherit;
+    z-index: 16;
+    height: 55px;    
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    padding: 0 0% 0 0%;
+    cursor: pointer;
+    margin: 0px;
+}
+.mobiletopmenucol {
+    top: 10px;
+    padding: 0px;
+}
+
+.svghamburger {
+    position: absolute;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.svgcontainer {
+    top: 10px;
+    padding: 0px;
+}
+.mobilemenutitle {
+    font-size: 26px;
+    position: absolute;
+    right: 15px;
+    top: -3px;
+}
+@media (max-width:575px) {
+    .topmenubar {
+        width: 100%;
+        left:0px;
+    }
+
+    .hidden-xs-down {
+        display:none;
+    }
+}
+
+
+.bgcolor {
+    background-color: rgb(10, 88, 105) !important;
+}
+
+.menuitems {
+    margin: 0 0px 0 0px;
+}
+.menuitem {
+    text-align: center;
+    margin: 0px 30px 0px 30px !important;
+    width:92px;
+}
+
+    .menuitem i
+    {
+        color:white;
+    }
+
+    
+
+.mobile .menuitem a {
+    color: white;
+}
+.desktop .menuitem a {
+    color: white;
+}
+    .imagetitle
+{
+   /*width: 95%;*/
+    background-color: rgba(0, 0, 0, 0.56);
+    font-size: 18px;
+    color: white;
+    position: relative;
+    padding-right: 15px;
+    margin-top:15px;
+    /* top: 24px; */
+
+}
+.searchtext {
+    margin-right: 40px;
+    font-size: 22px;
+    top: 25px;
+}
+
+@media (min-width:992px)
+{
+    
+    .houseview {
+        background-color: #f5f5f5;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+@media (max-width:992px)
+{
+    .hidden-md-down {
+        display:none;
+    }
+    
+    .searchtext {
+        margin-right: 10px;
+    }
+ 
+    .imagetitle
+    {
+        /*left:-17px;*/
+    }
+}
+body {
+    overflow-y: visible;
+}
+
+.halfcircle {
+    background-color: rgba(57, 59, 59, 0.51);
+    position: absolute;
+    top: 20%;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 26px;
+    white-space: nowrap;
+    text-align: center;
+    /* Safari */
+    -webkit-transform: rotate(90deg);
+    /* Firefox */
+    -moz-transform: rotate(90deg);
+    /* IE */
+    -ms-transform: rotate(90deg);
+    /* Opera */
+    -o-transform: rotate(90deg);
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    width: 125px;
+    height: 60px;
+    left: -15px;
+    color: rgba(255, 255, 255, 0.9);
+    padding: 10px 0px 0 0px;
+    border-radius: 15px 0px 0px 0px;
+}
+
+
+
+.stickyMode {
+    position: fixed;
+    top: 60px;
+    height: 270px;
+}
+.stickyctrl {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    position: fixed !important;
+    top: 68px !important;
+    z-index: 2000;
+    width: 99%;
+    border-radius: 0px !important;
+    border-bottom-right-radius: 10px !important;
+    left: 17px !important;
+}
+.stickyctrlLeft {
+    left: 17px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 10px !important;
+}
+@media (min-width:768px) {
+
+    .rownomargin {
+        margin: 0px;
+    }
+
+}
+@media (max-width:767px)
+{
+
+    .cottagetext {
+        /*display:none;*/
+    }
+
+    .abouttitle {
+        max-width:250px;
+    }
+    .stickyctrl {
+        top: 55px !important;
+    }
+        .item {
+    height:220px;
+    
+    }
+    .stickyctrl {
+        top: 55px;
+        width: 58%;
+        left: 0px !important;
+        padding: 10px 0px;
+        height: 85px !important;
+        max-width: 100px !important;
+    }
+
+        .stickyctrl .bmd-modalButton {
+            font-size: 28px;
+        }
+    
+    .slidercontainer {
+        margin-top: 40px;
+    }
+    .whitetextbg {
+        margin: 50px 0px 40px 0px;
+        /*background-color: rgba(4, 17, 29, 0.32);*/
+    }
+
+    .housecontainer {
+        
+    }
+
+
+    body {
+        overflow-y:visible;
+
+    }
+    .imagetitle
+    {
+       
+    }
+
+    .bottomcontent
+    {
+        margin-top:40px;
+    }
+
+    
+}
+
+@media (max-width:680px) {
+    .halfcircle {
+        display: none;
+    }
+}
+
+.houseview {
+    background-color: #f5f5f5;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.8);
+    margin: 50px 0px 40px 0px;
+}
+.housebg
+{
+       /*background-color:rgba(92, 98, 99, 0.37);*/
+}
+
+.container
+{
+    
+    position:relative;
+  
+}
+
+
+.house
+{  
+    margin:0px 0 0px 0;    
+    background-size:100%;    
+    min-height:170px;
+    min-width:100px;
+    background-repeat:no-repeat;
+}
+
+.ighouse {
+    margin: 25px 0 0px 0;
+    margin: 25px 0 0px 0;
+    background-size: 100%;
+    /* max-height: 330px; */
+    /* max-width: 520px; */
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.contentmargin
+{
+    margin-top:35px;
+}
+
+.numberofdays {
+    height: 34px;
+    width:95%;
+    border-radius: 3px;
+    border: 1px solid silver;
+    padding-right: 10px;
+}
+
+.mobile
+{
+    display:none !important;
+}
+.mobiledate {
+    width: 46% !important;
+    float: right !important;
+    text-align: right;
+    height: 40px;
+}
+.modal-backdrop.in {
+z-index:13;
+}
+
+.reservectrl {
+    /*display: flex;*/
+display: none;
+    box-shadow: 0 5px 4px -2px rgba(0, 0, 0, 0.72);
+    margin: 0px auto;
+    position: relative;
+    height: 120px;
+    max-width: 200px;
+    top: -50px;
+    z-index: 15;
+    border-radius: 10px;
+}
+ 
+@media (min-width: 768px) {
+  .bottomcontent {
+    margin:5px -15px 25px -15px;
+  }
+}
+
+@media (max-width:767px)
+{
+    .houseview {
+        /*margin: 40px -15px 40px -15px;*/
+    }
+    
+    
+    .carousel {
+        margin-top: 15px !important;
+    }
+    .desktop
+    {
+        display:none !important;
+    }
+
+    .mobile {
+        display: block !important;
+    }
+
+    .datepicker
+    {
+        right:65px !important;
+    }
+
+    .numberofdays
+    {
+        width:100%;
+        padding-right:5px;
+    }
+
+    .house
+    {
+        background-size:100%;
+    }
+
+    .vertalign
+    {
+        top:0px !important;
+    }
+
+    .bmd-modalButton {
+        min-width: 100%;
+       /* height: 100%;*/
+        top: 0px;
+        display: block;
+        margin: 0px 0px 0px 0px;
+        padding: 0px;
+        top: -10px !important;
+    }
+    .reservectrl {
+        padding: 10px 0px;
+        height: 55px;
+        max-width: 480px;
+    }
+    .menuitem
+    {
+        width:30%;
+        margin:30px 30px 5px 30px !important;
+    }
+
+    .menuitems
+    {
+        flex-wrap:wrap;
+        flex-direction:row !important;
+    }
+
+    .menucontainer
+    {
+        padding:0px;
+        
+    }
+}
+
+@media (max-width:991px)
+{
+    .house
+    {
+        background-position:inherit !important;
+        
+    }
+}
+.contenttitle
+{
+
+    font-size:24px;
+    /*margin-top:35px;*/
+}
+
+.howtoarrivetitle
+{
+    font-size:24px;
+    margin-top:20px;
+}
+
+.contenttext
+{
+    font-size:18px;
+}
+
+
+
+.datepicker {
+    max-width: 220px;
+}
+
+
+
+
+.vertalign {
+    position: relative;
+    top: 40px;
+    height: 40px;
+}
+
+@media (min-width: 900px) {
+    .modal-dialog {
+        width: 1164px;
+    }
+
+}
+
+.datepickerinput {
+    width: 95% !important;
+    float: right !important;
+    text-align: right;
+    height:40px;
+}
+
+
+
+
+.page {
+  padding: 15px 0 0;
+}
+
+.bmd-modalButton {
+    font-size: 35px;
+
+    top: 0px;
+    min-width: 100%;
+    /*height: 100%;*/
+    display: block;
+    border: 0px;
+    color: white;
+}
+
+.close-button {
+  overflow: hidden;
+}
+
+.bmd-modalContent {
+  box-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+  
+.bmd-modalContent .close {
+  font-size: 30px;
+  line-height: 30px;
+  padding: 7px 4px 7px 13px;
+  text-shadow: none;
+  opacity: .7;
+  color:#fff;
+}
+
+.bmd-modalContent .close span {
+  display: block;
+}
+
+.bmd-modalContent .close:hover,
+.bmd-modalContent .close:focus {
+  opacity: 1;
+  outline: none;
+}
+
+.bmd-modalContent iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.modal-dialog
+{
+    
+}
+
+/*
+  Bootstrap Carousel Fade Transition (for Bootstrap 3.3.x)
+  CSS from:       http://codepen.io/transportedman/pen/NPWRGq
+  and:            http://stackoverflow.com/questions/18548731/bootstrap-3-carousel-fading-to-new-slide-instead-of-sliding-to-new-slide
+  Inspired from:  http://codepen.io/Rowno/pen/Afykb 
+*/
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+/*
+  WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+  Need to override the 3.3 new styles for modern browsers & apply opacity
+*/
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+}
+
+.topcarousel
+{
+    margin-top:48px;
+}
+
+.bottomcarousel {
+    /*margin-top:50px;*/
+}
+
+
+
+
+
+.topcarousel .item {
+    height: 640px;
+}
+ 
+
+.embed-responsive {
+    min-height: 450px;
+}
+
+
+
+
+/**ABOUT**/
+
+.aboutbg {
+    font-size: 18px;
+    padding: 0px 20px 50px 20%;
+    background-color: rgba(4, 17, 29, 0.32);
+}
+
+/*attraction*/
+.attractionbg {
+    font-size: 18px;
+    padding: 0px 5px 30px 5px;
+    background-color: rgba(4, 17, 29, 0.32);
+}
+
+.attractiontitle {
+    font-size: 32px;
+    color: white;
+}
+
+.attractionlink {
+    color:white;
+}
+/*contact us*/
+.bgmargin {
+    margin-top: 60px;
+}
+
+.contactusbg {
+    font-size: 18px;
+    padding: 0px 20px 50px 20%;
+    background-color: rgba(4, 17, 29, 0.32);
+}
+
+.imagegallerybg {
+    font-size: 18px;
+    padding: 0px 20px 20px 20px ;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.wazelink {
+    background-image: url(../css/images/waze.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    padding: 20px 0 0 50px;
+    text-decoration: underline;
+    
+}
+
+.actionlink {
+    color:white;
+    text-decoration:underline;
+}
+
+.modalimg {
+    width:100%;
+}
+
+.modal-title {
+    margin: 0 30px 0 0;
+    line-height: 1;
+    font-size: 28px;
+}
+
+.seemore {
+    font-size:26px;
+}
+
+.ordernowlink {
+color:white;
+    margin-top: 30px;
+}
+
+.ordernowlink:hover {
+    color: white;
+   
+}
+
+    .ordernowlink:visited {
+        color: white;
+  
+    }
+
+
+.col-xs-6 {
+    width: 50% !important;
+    padding: 0px !important;
+}
+
+.col-xs-4 {
+    width: 33% !important;
+    padding: 0px !important;
+}
+.col-xs-3 {
+    width: 25% !important;
+    padding: 0px !important;
+}
+
+.col-xs-2 {
+    width: 16.66666667% !important;
+}
+
+.popmenu {
+    position: absolute;
+    padding: 15px 20px 0px 20px;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.closemenu {
+    top:-160px;
+    z-index: -1;
+}
+
+.openmenu {
+    top: 120px;
+}
+
+.menuitemcontainer {
+    padding: 5px 0 5px 0;
+    border-bottom: 1px solid #a7a7a7;
+}
+
+@media (max-width:767px) {
+
+    .popmenu {
+        display: none;
+    }
+
+   .ordernowlink 
+   {
+    margin-top:0px;
+    text-align:center;
+   }
+}
+
+.menuitemimg {
+    width: 160px;
+    margin: 10px 10px 0px 10px;
+}
+.menuitemtext {
+    color: black;
+    background-color: #ffffff;
+    width: 160px;
+    margin: 0px 10px;
+    box-shadow: 0 5px 4px -2px rgba(0, 0, 0, 0.72);
+}
+
+.housesclosed
+{
+    display:none;
+}
+
+.housesopen {
+
+    display:block;
+}
+
+.embed-responsive-16by9
+{
+background-color:white;
+}

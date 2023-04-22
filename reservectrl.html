@@ -1,0 +1,73 @@
+﻿
+
+<div class='col-lg-12' id="reserve">
+
+    <!--button type="button" id="searchbtn"
+            class="bmd-modalButton vertalign logotext bgcolor"
+            data-toggle="modal"
+            data-bmdsrc="https://bookingresults.com/Selfi.AmirimG4M/10654?lang=heb"
+            data-bmdwidth="900"
+            data-bmdheight="580"
+            data-target="#myModal"
+            data-bmdvideofullscreen="true">
+        הזמן עכשיו!
+    </button-->
+
+
+    <a type="button" id="searchbtn" href='https://bookingresults.com/selfi.amirimg4m/10654?lang=heb&userData=amirimSource' target='_blank'
+            class="bmd-modalButton vertalign logotext bgcolor ordernowlink " >
+        הזמן עכשיו!
+    </a>
+
+    <footer>
+        <div class="modal fade" id="myModal" style="top:25px">
+            <div class="modal-dialog">
+                <div class="modal-content bmd-modalContent">
+
+                    <div class="modal-body">
+
+                        <div class="close-button">
+                            <div class="modal-title"></div>
+
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" frameborder="0"></iframe>
+                            <img id="modalimg" class="modalimg" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script>
+    $.fn.bmdIframe = function (options) {
+            var self = this;
+            var settings = $.extend({
+                classBtn: '.bmd-modalButton',
+                defaultW: parseInt($(window).width()) - 50,
+                defaultH: parseInt( $(window).height() ) - 50
+            }, options);
+            $(settings.classBtn).on('click', function (e) {
+                var allowFullscreen = $(this).attr('data-bmdVideoFullscreen') || false;
+                var dataVideo = {
+                    'src': $(this).attr('data-bmdSrc'),
+                    'height': parseInt($(window).height()) - 50,
+                    'width': parseInt($(window).width()) - 50
+                };
+                if (allowFullscreen) dataVideo.allowfullscreen = "";
+                $(self).find("iframe").attr(dataVideo);
+            });
+
+            // se si chiude la modale resettiamo i dati dell'iframe per impedire ad un video di continuare a riprodursi anche quando la modale è chiusa
+            this.on('hidden.bs.modal', function () {
+                $(this).find('iframe').html("").attr("src", "");
+            });
+
+            return this;
+        };
+
+</script>
