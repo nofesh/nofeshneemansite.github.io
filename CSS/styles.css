@@ -44,7 +44,7 @@ p {
 
 
 .imagebg {
-    background-image: url('../images/10.jpg');
+    background-image: url('../Images/10.jpg');
 }
 .title {
     font-size: 60px;
@@ -72,7 +72,7 @@ p {
 }
 
 .zimmertitle {
-    background-image: url("../images/swiss/BEA_3026_resize.jpg");
+    background-image: url("../Images/swiss/BEA_3026_resize.jpg");
     font-size: 42px;
     color: white;
     z-index: 14;
@@ -771,7 +771,7 @@ display: none;
 }
 
 .wazelink {
-    background-image: url(../CSS/images/waze.png);
+    background-image: url(../CSS/Images/waze.png);
     background-repeat: no-repeat;
     background-size: 40px;
     padding: 20px 0 0 50px;
